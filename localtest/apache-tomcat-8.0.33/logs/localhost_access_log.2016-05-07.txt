@@ -1,0 +1,16 @@
+127.0.0.1 - - [07/May/2016:10:25:54 +0300] "GET / HTTP/1.1" 200 388
+127.0.0.1 - - [07/May/2016:10:26:08 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1611
+127.0.0.1 - - [07/May/2016:10:38:57 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1611
+127.0.0.1 - - [07/May/2016:10:39:10 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1611
+127.0.0.1 - - [07/May/2016:11:12:57 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1611
+127.0.0.1 - - [07/May/2016:11:34:01 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1571
+127.0.0.1 - - [07/May/2016:11:37:35 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 500 1571
+127.0.0.1 - - [07/May/2016:11:39:14 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 49428
+127.0.0.1 - - [07/May/2016:20:03:07 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [07/May/2016:20:03:20 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 60948
+127.0.0.1 - - [07/May/2016:20:13:45 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 60940
+127.0.0.1 - - [07/May/2016:20:15:34 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 70103
+127.0.0.1 - - [07/May/2016:20:18:12 +0300] "GET /simple?speciality=C%2B%2B&city=Rostov-on-Don HTTP/1.1" 200 80873
+127.0.0.1 - - [07/May/2016:20:20:30 +0300] "GET /simple?speciality=Java&city=Sent-Petersberg HTTP/1.1" 200 42624
+127.0.0.1 - - [07/May/2016:20:59:26 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 70103
+127.0.0.1 - - [07/May/2016:21:05:58 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 70103

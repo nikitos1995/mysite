@@ -1,0 +1,15 @@
+127.0.0.1 - - [09/May/2016:16:31:57 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2016:16:32:22 +0300] "GET /simple?speciality=Java&city=%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83 HTTP/1.1" 200 118043
+127.0.0.1 - - [09/May/2016:17:51:52 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 131902
+127.0.0.1 - - [09/May/2016:18:07:19 +0300] "GET /simple?speciality=Java&city=%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83 HTTP/1.1" 200 118363
+127.0.0.1 - - [09/May/2016:18:07:58 +0300] "GET /simple?speciality=Java&city=%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83 HTTP/1.1" 200 118363
+127.0.0.1 - - [09/May/2016:18:09:32 +0300] "GET /simple?speciality=Java&city=%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83 HTTP/1.1" 200 118363
+127.0.0.1 - - [09/May/2016:18:10:58 +0300] "GET /simple?speciality=%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80&city=%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83 HTTP/1.1" 200 534
+127.0.0.1 - - [09/May/2016:18:13:13 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2016:18:13:48 +0300] "GET /simple?speciality=%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80&city=Rostov-on-Don HTTP/1.1" 200 34305
+127.0.0.1 - - [09/May/2016:18:15:04 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2016:18:15:18 +0300] "GET /simple?speciality=%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80&city=Rostov-on-Don HTTP/1.1" 200 34306
+127.0.0.1 - - [09/May/2016:18:16:12 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2016:18:16:24 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don HTTP/1.1" 200 131902
+127.0.0.1 - - [09/May/2016:18:17:17 +0300] "GET /simple?speciality=1%D0%A1&city=Rostov-on-Don HTTP/1.1" 200 34320
+127.0.0.1 - - [09/May/2016:18:17:46 +0300] "GET /simple?speciality=Python&city=Rostov-on-Don HTTP/1.1" 200 43786

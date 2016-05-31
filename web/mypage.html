@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title>Работа</title>
+    <style>
+        body
+        {
+            background-image:url(bgImage.jpg);
+            background-size: 100%100%;
+        }
+        form
+        {
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 250px;
+            margin-bottom: 250px;
+            border: 3px outset white;
+            background-color: rgba(255, 0, 50, 0.3);
+            color: white;
+        }
+        div
+        {
+            text-align: center;
+        }
+        label
+        {
+            margin: 5px;
+        }
+        input
+        {
+            margin: 5px;
+        }
+    </style>
+
+    <script>
+        function getRightCity(city)
+        {
+            /*var s = city.toLowerCase();
+            if (s.localeCompare("ростов-на-дону") == 0
+                || s.localeCompare("ростов") == 0
+                || s.localeCompare("rostov-on-don") == 0
+                || s.localeCompare("rostov-na-donu") == 0)
+                    document.getElementById("city").value = 'Rostov-on-Don';
+            if (s.localeCompare("москва") == 0
+                || s.localeCompare("moscow") == 0
+                || s.localeCompare("moskva") == 0)
+                    document.getElementById("city").value = 'Moscow';
+            if (s.localeCompare("санкт-петербург") == 0
+                || s.localeCompare("питер") == 0
+                || s.localeCompare("sent-petersburg") == 0
+                || s.localeCompare("sankt-peterburg") == 0)
+                    document.getElementById("city").value = 'Petersburg';*/
+            switch (city.toLowerCase())
+            {
+                case "ростов-на-дону":
+                case "ростов":
+                case "rostov-on-don":
+                case "rostov-na-donu":
+                    document.getElementById("city").value = 'Rostov-on-Don';
+                    break;
+                case "москва":
+                case "moscow":
+                case "moskva":
+                    document.getElementById("city").value = 'Moscow';
+                    break;
+                case "санкт-петербург":
+                case "питер":
+                case "sent-petersburg":
+                case "sankt-peterburg":
+                    document.getElementById("city").value = 'Petersburg';
+                    break;
+                default:
+                    document.getElementById("city").value = city;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form name="form" method="get" action="/simple" onsubmit="return getRightCity(document.getElementById('cityForUser').value);">
+        <div>Поиск вакансий</div>
+        <div><label for="speciality">Специальность</label> <input name="speciality" id="speciality"/></div>
+        <div><label for="cityForUser">Город</label> <input id="cityForUser"/></div>
+        <input type="hidden" name="city" id="city"/>
+        <input type="hidden" name="page" value="1"/>
+        <div><input type="submit" value="Найти"/></div>
+    </form>
+</body>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <title>Вакансии</title>
+ <style>
+
+   table
+   {
+    margin: auto;
+   }
+
+   td+td
+   {
+    text-align: center;
+   }
+
+   td:first-child
+   {
+    width: 300px;
+   }
+
+   td:nth-child(2)
+   {
+    width: 200px;
+   }
+
+   td:nth-child(3)
+   {
+    width: 300px;
+   }
+
+   td:last-child
+   {
+    width: 150px;
+   }
+
+   th
+   {
+    color: red;
+   }
+  </style>
+</head>
+<body>
+<table border cellspacing="0">
+ <tbody>
+ <tr>
+  <th>Вакансия</th>
+  <th>Город</th>
+  <th>Компания</th>
+  <th>Зарплата</th>
+ </tr>
+ <tr class="vacancy template" style="display: none">
+  <td class="title"><a href="url"></a></td>
+  <td class="city"></td>
+  <td class="companyName"></td>
+  <td class="salary"></td>
+ </tr>
+ </tbody>
+</table>
+</body>
+</html>

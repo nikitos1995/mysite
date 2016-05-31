@@ -1,0 +1,743 @@
+06-May-2016 15:02:29.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:02:29.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:02:29.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:02:29.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:02:29.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:02:29.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:02:29.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:02:29.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:02:29.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:02:29.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:02:29.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:02:29.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:02:29.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:02:29.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:02:29.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:02:29.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:02:29.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:02:29.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:02:29.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:02:30.855 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:02:31.370 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:02:31.401 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:02:31.407 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3321 ms
+06-May-2016 15:02:31.509 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:02:31.510 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:02:31.573 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:02:34.099 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,219] milliseconds.
+06-May-2016 15:02:34.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,588 ms
+06-May-2016 15:02:34.174 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:02:34.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:02:34.229 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2820 ms
+06-May-2016 15:21:14.633 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+06-May-2016 15:21:14.635 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 15:21:14.800 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 15:30:52.211 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:30:52.213 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:30:52.269 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:30:52.320 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:30:52.340 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:30:52.397 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:30:52.452 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:30:52.454 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:30:59.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:30:59.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:30:59.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:30:59.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:30:59.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:30:59.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:30:59.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:30:59.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:30:59.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:30:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:30:59.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:30:59.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:30:59.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:30:59.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:30:59.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:30:59.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:30:59.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:30:59.306 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:30:59.306 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:31:00.387 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:31:00.703 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:31:00.741 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:31:00.748 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2704 ms
+06-May-2016 15:31:00.811 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:31:00.812 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:31:00.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:31:03.081 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,224] milliseconds.
+06-May-2016 15:31:03.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,290 ms
+06-May-2016 15:31:03.133 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:31:03.161 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:31:03.168 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2419 ms
+06-May-2016 15:34:53.218 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+06-May-2016 15:34:53.220 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 15:34:53.542 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 15:35:05.518 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:35:05.520 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:35:05.581 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:35:05.632 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:35:05.657 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:35:05.713 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:35:05.766 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:35:05.767 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:35:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:35:08.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:35:08.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:35:08.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:35:08.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:35:08.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:35:08.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:35:08.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:35:08.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:35:08.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:35:08.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:35:08.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:35:08.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:35:08.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:35:08.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:35:08.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:35:08.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:35:08.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:35:08.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:35:09.867 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:35:10.175 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:35:10.214 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:35:10.220 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2691 ms
+06-May-2016 15:35:10.280 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:35:10.281 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:35:10.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:35:12.518 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,225] milliseconds.
+06-May-2016 15:35:12.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,263 ms
+06-May-2016 15:35:12.580 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:35:12.610 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:35:12.619 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2397 ms
+06-May-2016 15:36:05.155 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:36:05.158 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:36:05.219 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:36:05.271 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:36:05.297 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:36:05.350 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:36:05.403 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:36:05.405 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:36:09.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:36:09.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:36:09.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:36:09.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:36:09.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:36:09.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:36:09.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:36:09.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:36:09.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:36:09.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:36:09.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:36:09.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:36:09.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:36:09.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:36:09.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:36:09.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:36:09.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:36:09.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:36:09.314 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:36:10.401 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:36:10.723 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:36:10.762 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:36:10.769 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2762 ms
+06-May-2016 15:36:10.842 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:36:10.843 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:36:10.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:36:13.079 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,225] milliseconds.
+06-May-2016 15:36:13.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,247 ms
+06-May-2016 15:36:13.128 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:36:13.160 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:36:13.167 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2396 ms
+06-May-2016 15:37:33.147 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+06-May-2016 15:37:33.148 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 15:37:33.264 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 15:37:36.469 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:37:36.470 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:37:36.528 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:37:36.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:37:36.603 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:37:36.658 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:37:36.711 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:37:36.713 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:37:40.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:37:40.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:37:40.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:37:40.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:37:40.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:37:40.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:37:40.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:37:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:37:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:37:40.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:37:40.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:37:40.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:37:40.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:37:40.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:37:40.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:37:40.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:37:40.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:37:40.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:37:40.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:37:41.369 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:37:41.723 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:37:41.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:37:41.770 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2845 ms
+06-May-2016 15:37:41.873 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:37:41.874 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:37:41.909 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:37:44.213 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,206] milliseconds.
+06-May-2016 15:37:44.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,345 ms
+06-May-2016 15:37:44.265 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:37:44.294 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:37:44.301 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2529 ms
+06-May-2016 15:45:01.038 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:45:01.040 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:45:01.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:45:01.151 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:45:01.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:45:01.412 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:45:01.465 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:45:04.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:45:04.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:45:04.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:45:04.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:45:04.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:45:04.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:45:04.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:45:04.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:45:04.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:45:04.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:45:04.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:45:04.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:45:04.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:45:04.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:45:04.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:45:04.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:45:04.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:45:04.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:45:04.409 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:45:05.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:45:05.845 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:45:05.882 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:45:05.888 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2813 ms
+06-May-2016 15:45:05.966 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:45:05.967 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:45:06.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT
+06-May-2016 15:45:08.869 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,328] milliseconds.
+06-May-2016 15:45:08.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\webapps\ROOT has finished in 2,918 ms
+06-May-2016 15:45:08.929 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:45:08.958 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:45:08.967 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3078 ms
+06-May-2016 15:56:07.309 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 15:56:07.313 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:56:07.376 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:56:07.428 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 15:56:07.457 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 15:56:07.513 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:56:07.567 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 15:56:07.568 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:56:11.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 15:56:11.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 15:56:11.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 15:56:11.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 15:56:11.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 15:56:11.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 15:56:11.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 15:56:11.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 15:56:11.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 15:56:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:56:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:56:11.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 15:56:11.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 15:56:11.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 15:56:11.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:56:11.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 15:56:11.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 15:56:11.075 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 15:56:11.076 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 15:56:12.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 15:56:12.567 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 15:56:12.611 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:56:12.620 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3091 ms
+06-May-2016 15:56:12.745 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 15:56:12.746 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 15:56:15.543 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,356] milliseconds.
+06-May-2016 15:56:15.604 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 15:56:15.641 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 15:56:15.652 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3031 ms
+06-May-2016 16:22:56.163 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 16:22:56.205 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 16:22:56.263 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:22:56.315 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 16:22:56.345 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 16:22:56.401 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:22:56.454 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 16:22:56.456 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:22:59.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 16:22:59.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 16:22:59.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 16:22:59.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 16:22:59.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 16:22:59.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 16:22:59.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 16:22:59.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 16:22:59.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 16:22:59.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:22:59.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:22:59.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 16:22:59.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 16:22:59.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 16:22:59.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:22:59.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:22:59.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 16:22:59.680 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 16:22:59.681 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 16:23:00.774 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 16:23:01.105 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 16:23:01.144 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:23:01.149 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2978 ms
+06-May-2016 16:23:01.213 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 16:23:01.214 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 16:23:03.362 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,219] milliseconds.
+06-May-2016 16:23:03.409 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 16:23:03.433 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:23:03.440 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2290 ms
+06-May-2016 16:23:30.964 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 16:23:30.966 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 16:23:31.025 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:23:31.078 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 16:23:31.106 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 16:23:31.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:23:31.282 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 16:23:31.283 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:26:40.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 16:26:40.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 16:26:40.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 16:26:40.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 16:26:40.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 16:26:40.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 16:26:40.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 16:26:40.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 16:26:40.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 16:26:40.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:26:40.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:26:40.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 16:26:40.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 16:26:40.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 16:26:40.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:26:40.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 16:26:40.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 16:26:40.775 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 16:26:40.777 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 16:26:41.620 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 16:26:41.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 16:26:41.799 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:26:41.803 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1697 ms
+06-May-2016 16:26:41.844 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 16:26:41.844 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 16:26:42.897 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [524] milliseconds.
+06-May-2016 16:26:42.925 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 16:26:42.939 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 16:26:42.943 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1140 ms
+06-May-2016 19:33:29.946 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 19:33:29.947 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:33:30.007 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:33:30.059 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 19:33:30.085 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 19:33:30.178 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:33:30.230 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 19:33:30.232 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:33:33.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 19:33:33.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 19:33:33.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 19:33:33.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 19:33:33.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 19:33:33.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 19:33:33.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 19:33:33.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 19:33:33.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 19:33:33.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:33:33.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:33:33.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 19:33:33.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 19:33:33.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 19:33:33.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:33:33.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:33:33.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 19:33:33.196 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 19:33:33.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 19:33:34.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 19:33:34.596 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:33:34.636 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:33:34.642 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2858 ms
+06-May-2016 19:33:34.722 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 19:33:34.723 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 19:33:36.893 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,197] milliseconds.
+06-May-2016 19:33:36.940 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 19:33:36.966 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:33:36.972 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2329 ms
+06-May-2016 19:34:17.149 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 19:34:17.151 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:34:17.211 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:34:17.262 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 19:34:17.290 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 19:34:17.345 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:34:17.398 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 19:34:17.400 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:34:20.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 19:34:20.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 19:34:20.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 19:34:20.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 19:34:20.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 19:34:20.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 19:34:20.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 19:34:20.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 19:34:20.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 19:34:20.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:34:20.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:34:20.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 19:34:20.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 19:34:20.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 19:34:20.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:34:20.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:34:20.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 19:34:20.377 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 19:34:20.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 19:34:21.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 19:34:21.883 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:34:21.929 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:34:21.936 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2970 ms
+06-May-2016 19:34:22.015 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 19:34:22.016 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 19:34:24.335 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,234] milliseconds.
+06-May-2016 19:34:24.384 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 19:34:24.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:34:24.423 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2486 ms
+06-May-2016 19:35:14.364 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 19:35:14.366 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:35:14.426 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:35:14.489 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 19:35:14.534 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 19:35:14.592 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:35:14.648 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 19:35:14.652 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:35:17.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 19:35:17.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 19:35:17.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 19:35:17.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 19:35:17.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 19:35:17.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 19:35:17.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 19:35:17.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 19:35:17.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 19:35:17.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:35:17.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:35:17.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 19:35:17.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 19:35:17.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 19:35:17.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:35:17.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:35:17.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 19:35:17.395 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 19:35:17.396 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 19:35:18.490 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 19:35:18.810 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:35:18.842 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:35:18.849 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2809 ms
+06-May-2016 19:35:18.941 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 19:35:18.942 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 19:35:21.219 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,230] milliseconds.
+06-May-2016 19:35:21.265 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 19:35:21.294 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:35:21.304 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2453 ms
+06-May-2016 19:37:41.285 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 19:37:41.419 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 19:39:12.596 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 19:39:12.598 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:12.660 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:12.711 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 19:39:12.732 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:12.787 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:12.842 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:12.844 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:16.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 19:39:16.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 19:39:16.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 19:39:16.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 19:39:16.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 19:39:16.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 19:39:16.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 19:39:16.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 19:39:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 19:39:16.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:16.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:16.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 19:39:16.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 19:39:16.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 19:39:16.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:16.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:16.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 19:39:16.535 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 19:39:16.536 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 19:39:17.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 19:39:17.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:17.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:17.970 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2867 ms
+06-May-2016 19:39:18.060 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 19:39:18.062 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 19:39:20.355 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,270] milliseconds.
+06-May-2016 19:39:20.405 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:20.429 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:20.436 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2465 ms
+06-May-2016 19:39:50.762 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 19:39:50.764 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:50.823 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:50.875 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 19:39:50.905 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:50.959 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:51.013 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:51.014 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:53.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 19:39:53.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 19:39:53.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 19:39:53.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 19:39:53.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 19:39:53.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 19:39:53.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 19:39:53.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 19:39:53.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 19:39:53.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:53.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:53.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 19:39:53.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 19:39:53.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 19:39:53.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:53.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 19:39:53.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 19:39:53.871 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 19:39:53.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 19:39:54.981 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 19:39:55.343 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:55.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:55.391 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3104 ms
+06-May-2016 19:39:55.476 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 19:39:55.477 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 19:39:57.910 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,244] milliseconds.
+06-May-2016 19:39:57.961 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 19:39:57.986 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 19:39:57.994 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2600 ms
+06-May-2016 20:44:28.930 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 20:44:29.026 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 20:50:09.013 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 20:50:09.015 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 20:50:09.074 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:50:09.126 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 20:50:09.150 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 20:50:09.206 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:50:09.259 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 20:50:09.261 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:50:13.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 20:50:13.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 20:50:13.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 20:50:13.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 20:50:13.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 20:50:13.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 20:50:13.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 20:50:13.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 20:50:13.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 20:50:13.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:50:13.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:50:13.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 20:50:13.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 20:50:13.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 20:50:13.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:50:13.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:50:13.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 20:50:13.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 20:50:13.497 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 20:50:14.599 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 20:50:15.025 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 20:50:15.063 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:50:15.070 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2953 ms
+06-May-2016 20:50:15.149 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 20:50:15.150 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 20:50:17.401 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,213] milliseconds.
+06-May-2016 20:50:17.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 20:50:17.471 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:50:17.478 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2407 ms
+06-May-2016 20:56:23.799 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 20:56:23.800 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 20:56:23.861 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:56:23.914 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 20:56:23.947 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 20:56:24.019 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:56:24.071 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 20:56:24.072 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:56:26.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 20:56:26.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 20:56:26.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 20:56:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 20:56:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 20:56:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 20:56:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 20:56:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 20:56:26.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 20:56:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:56:26.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:56:26.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 20:56:26.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 20:56:26.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 20:56:26.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:56:26.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:56:26.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 20:56:26.941 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 20:56:26.943 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 20:56:28.032 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 20:56:28.375 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 20:56:28.420 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:56:28.428 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2813 ms
+06-May-2016 20:56:28.517 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 20:56:28.519 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 20:56:30.751 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,224] milliseconds.
+06-May-2016 20:56:30.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 20:56:30.827 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:56:30.836 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2407 ms
+06-May-2016 20:59:55.669 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 20:59:55.672 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 20:59:55.732 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:59:55.784 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 20:59:55.812 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 20:59:55.868 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:59:55.921 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 20:59:55.922 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 20:59:58.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 20:59:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 20:59:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 20:59:58.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 20:59:58.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 20:59:58.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 20:59:58.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 20:59:58.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 20:59:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 20:59:58.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:59:58.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:59:58.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 20:59:58.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 20:59:58.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 20:59:58.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:59:58.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 20:59:58.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 20:59:58.632 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 20:59:58.633 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 20:59:59.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 21:00:00.045 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:00:00.101 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:00:00.108 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2865 ms
+06-May-2016 21:00:00.198 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 21:00:00.201 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 21:00:03.037 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,310] milliseconds.
+06-May-2016 21:00:03.085 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 21:00:03.116 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:00:03.124 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3014 ms
+06-May-2016 21:03:23.204 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:03:23.362 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:03:23.670 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 21:03:23.672 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:03:23.731 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:03:23.782 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 21:03:23.803 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 21:03:23.857 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:03:23.910 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 21:03:23.912 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:03:28.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 21:03:28.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 21:03:28.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 21:03:28.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 21:03:28.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 21:03:28.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 21:03:28.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 21:03:28.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 21:03:28.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 21:03:28.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:03:28.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:03:28.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 21:03:28.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 21:03:28.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 21:03:28.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:03:28.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:03:28.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 21:03:28.275 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 21:03:28.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 21:03:29.363 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 21:03:29.689 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:03:29.716 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:03:29.721 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2796 ms
+06-May-2016 21:03:29.789 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 21:03:29.790 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 21:03:32.002 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,224] milliseconds.
+06-May-2016 21:03:32.057 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 21:03:32.091 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:03:32.098 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2375 ms
+06-May-2016 21:07:12.547 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:07:12.841 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:11:02.967 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.modified One or more JARs have been added to the web application []
+06-May-2016 21:11:02.968 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:11:03.453 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:19:04.334 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:19:04.795 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:19:15.297 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 21:19:15.299 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:19:15.358 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:19:15.409 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 21:19:15.426 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 21:19:15.483 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:19:15.536 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 21:19:15.537 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:19:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+06-May-2016 21:19:18.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+06-May-2016 21:19:18.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+06-May-2016 21:19:18.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+06-May-2016 21:19:18.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+06-May-2016 21:19:18.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2016 21:19:18.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+06-May-2016 21:19:18.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+06-May-2016 21:19:18.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2016 21:19:18.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:19:18.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:19:18.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\conf\logging.properties
+06-May-2016 21:19:18.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2016 21:19:18.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\endorsed
+06-May-2016 21:19:18.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:19:18.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33
+06-May-2016 21:19:18.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DSK\IdeaProjects\mysite\localtest\apache-tomcat-8.0.33\temp
+06-May-2016 21:19:18.392 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+06-May-2016 21:19:18.394 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+06-May-2016 21:19:19.496 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+06-May-2016 21:19:19.804 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:19:19.839 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:19:19.846 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2928 ms
+06-May-2016 21:19:19.930 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2016 21:19:19.931 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+06-May-2016 21:19:21.522 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-May-2016 21:19:22.901 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,305] milliseconds.
+06-May-2016 21:19:22.949 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-80"]
+06-May-2016 21:19:22.991 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:19:22.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3152 ms
+06-May-2016 21:43:13.990 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:43:14.257 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:44:14.520 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:44:14.867 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:45:45.489 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+06-May-2016 21:45:45.793 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+06-May-2016 21:57:02.087 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-May-2016 21:57:02.089 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-80"]
+06-May-2016 21:57:02.141 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:57:02.193 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-May-2016 21:57:02.213 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-80"]
+06-May-2016 21:57:02.270 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+06-May-2016 21:57:02.322 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-80"]
+06-May-2016 21:57:02.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]

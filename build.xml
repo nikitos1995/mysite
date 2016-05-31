@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="buildProject">
+
+  <path id="servlet-api">
+    <pathelement location="localtest/apache-tomcat-8.0.33/lib/servlet-api.jar"/>
+  </path>
+  <path id="jsoup-api">
+    <pathelement location="web/WEB-INF/lib/jsoup-1.8.3.jar"/>
+  </path>
+
+
+  <target name="clean">
+    <delete dir="web/WEB-INF/classes/mysite"/>
+  </target>
+
+  <target name="compile" depends="clean">
+    <javac srcdir="src" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
+      <classpath refid="servlet-api"/>
+      <classpath refid="jsoup-api"/>
+    </javac>
+  </target>
+</project>

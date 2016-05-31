@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="buildJSOUP">
+  <path id="jsoup-api">
+    <pathelement location="web/WEB-INF/lib/jsoup-1.8.3.jar"/>
+  </path>
+
+
+  <target name="compile">
+    <javac srcdir="web/WEB-INF/lib" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
+      <classpath refid="jsoup-api"/>
+    </javac>
+  </target>
+</project>

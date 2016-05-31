@@ -1,0 +1,7 @@
+127.0.0.1 - - [25/May/2016:16:36:34 +0300] "GET / HTTP/1.1" 200 3240
+127.0.0.1 - - [25/May/2016:16:36:35 +0300] "GET /bgImage.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [25/May/2016:16:36:52 +0300] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [25/May/2016:16:37:21 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don&page=1 HTTP/1.1" 200 10002
+127.0.0.1 - - [25/May/2016:16:38:09 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don&page=2 HTTP/1.1" 200 8559
+127.0.0.1 - - [25/May/2016:16:38:17 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don&page=3 HTTP/1.1" 200 4061
+127.0.0.1 - - [25/May/2016:16:38:26 +0300] "GET /simple?speciality=Java&city=Rostov-on-Don&page=4 HTTP/1.1" 200 1413

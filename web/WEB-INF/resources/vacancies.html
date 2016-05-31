@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="ru">
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Вакансии</title>
+  <style>
+   body
+   {
+    background-image: url(bgImage.jpg);
+    background-size: 100%;
+   }
+   table
+   {
+    margin: auto;
+    background-color: rgba(255, 0, 50, 0.3);
+   }
+
+   td+td
+   {
+    text-align: center;
+   }
+
+   td:first-child
+   {
+    width: 300px;
+   }
+
+   td:nth-child(2)
+   {
+    width: 200px;
+   }
+
+   td:nth-child(3)
+   {
+    width: 300px;
+   }
+
+   td:last-child
+   {
+    width: 150px;
+   }
+
+   th:first-child
+   {
+    width: 300px;
+   }
+
+   th:nth-child(2)
+   {
+    width: 200px;
+   }
+
+   th:nth-child(3)
+   {
+    width: 300px;
+   }
+
+   th:last-child
+   {
+    width: 150px;
+   }
+
+   th
+   {
+    color: white
+   }
+   td
+   {
+    color: rgba(255, 255, 255, 0.8);
+   }
+   a
+   {
+    color: rgba(255, 255, 255, 0.8);
+   }
+   tr:first-child
+   {
+    position: fixed;
+    background-color: rgba(255, 0, 50, 0.8);
+    top: 0px;
+   }
+   a.disabled
+   {
+    pointer-events: none; /* делаем ссылку некликабельной */
+    cursor: default;  /* устанавливаем курсор в виде стрелки */
+    color: rgba(255,255,255,0.5); /* цвет текста для нективной ссылки */
+   }
+  </style>
+ </head> 
+ <body id="body">
+  <table border cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <th>Вакансия</th>
+     <th>Город</th>
+     <th>Компания</th>
+     <th>Зарплата</th>
+    </tr>
+    <tr class="vacancy template" style="display: none"> 
+     <td class="title"><a href="url"></a></td> 
+     <td class="city"></td> 
+     <td class="companyName"></td> 
+     <td class="salary"></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <a href="" id="previous" style="position: absolute; top: 300 px; left: 100px;">previous</a>
+  <a href="" id="next" style="position: absolute; top: 300 px; left: 1250px;">next</a>
+ </body>
+</html>
